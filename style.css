@@ -1,1 +1,15 @@
-
+.box{
+  width: 700px;
+  height: 600px;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+.child{
+    background: red;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
